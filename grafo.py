@@ -42,6 +42,7 @@ def visualizar_grafo(camino_numeros=None):
     nodos_nombres = {v: k for k, v in nombres_nodos.items()}
 
     # Ajustar el tamaño de la figura
+    #
     fig.clear()
     ax = fig.add_subplot(111)
     
